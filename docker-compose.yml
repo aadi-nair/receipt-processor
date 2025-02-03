@@ -1,0 +1,11 @@
+version: '1'
+name: receipt-processor
+services:
+  backend-service:
+    build:
+      context: . 
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+    environment:
+      - PORT=3000
