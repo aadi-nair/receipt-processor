@@ -22,6 +22,7 @@ cd receipt-processor
 docker compose up -d
 ```
 
+The webservice will run on ```http://localhost:3000```
 
 ## Project Structure
 
